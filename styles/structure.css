@@ -1,0 +1,272 @@
+.id_flexbox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  align-items: top;
+}
+
+.id_intro_text{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 620px;
+  min-width: 470px;
+  margin-right: 30px;
+}
+
+.id_intro_text_title{
+  margin-bottom: 13px;
+}
+
+.id_intro_text_title_p{
+  font-size: 27px;
+}
+
+.id_photo{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  max-width: 150px;
+}
+
+.links_profiles{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links_profiles a{
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(240, 240, 240);
+  transition: 
+    color 0.15s;
+}
+
+.links_profiles a:hover{
+  color: rgb(170, 170, 170);
+}
+
+.photo_face{
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+  object-fit: cover;
+  object-position: 0% 40%;
+  margin-bottom: 12px;
+}
+
+.academics_flexbox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  align-items: top;
+}
+
+.button_set_div{
+  max-width: 620px;
+  min-width: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.button_set_div_last{
+  flex: 1;
+  max-width: 620px;
+  min-width: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.button_set_div_lists{
+  max-width: 620px;
+  min-width: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.title_2 p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+ol{
+  margin-top: 0px;
+}
+
+li{
+  margin-bottom: 8px;
+}
+
+.list_set{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  align-items: top;
+}
+
+.list_title p{
+  flex: 1;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.list_conferences{
+  flex: 1;
+  max-width: 620px;
+  min-width: 470px;
+}
+
+.list_awards{
+  flex: 1;
+  max-width: 620px;
+  min-width: 470px;
+}
+
+.list_preprints{
+  flex: 1;
+  max-width: 620px;
+  min-width: 470px;
+}
+
+.list_publications{
+  flex: 1;
+  max-width: 620px;
+  min-width: 470px;
+}
+
+.div_list_element{
+  display: flex;
+  flex-direction: column;
+}
+
+.div_list_element_title p{
+  font-weight: bold;
+}
+
+.div_list_element_title_2 p{
+  font-weight: normal;
+}
+
+.div_list_element_info_spacetime p{
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+}
+
+.div_list_element_info_award p{
+  font-style: normal;
+  font-size: 16px;
+}
+
+.div_list_element_venue p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+}
+
+.div_list_element_conference p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+}
+
+.div_list_element_duration p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+}
+
+.div_list_element_prize p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+}
+
+.div_list_element_authors p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+}
+
+.div_list_element_download{
+  display: flex;
+  flex-direction: row;
+}
+
+.div_list_element_link{
+  display: flex;
+  flex-direction: row;
+}
+
+.div_list_element_download p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(240, 240, 240);
+  margin-right: 5px;
+}
+
+.div_list_element_link p{
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(240, 240, 240);
+  margin-right: 5px;
+}
+
+.div_list_element_download img{
+  transition:
+    color-mask-image 0.15s;
+}
+
+.div_list_element_link img{
+  transition:
+    color-mask-image 0.15s;
+}
+
+.div_list_element_download img:hover{
+    filter:brightness(50%);
+}
+
+.div_list_element_link img:hover{
+  filter:brightness(50%);
+}
+
+.div_list_element_info_talk p{
+  font-style: normal;
+  font-size: 16px;
+}
+
+.div_list_element_title_2 a{
+  text-decoration: none;
+  color: inherit;
+  transition: 
+    text-shadow 0.15s;
+}
+
+.div_list_element_title_2 a:hover{
+  color: rgb(147, 147, 147);
+}
+
+.div_list_element_info_authors p{
+  font-style: normal;
+  font-size: 16px;
+}
+
